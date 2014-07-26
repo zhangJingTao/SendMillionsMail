@@ -11,8 +11,7 @@ import org.apache.commons.io.FileUtils;
 
 public class TemplateUtil {
 	/**
-	 * ����ʼ�
-	 * 
+	 * 根据模板生成内容
 	 * @param modelId
 	 * @param parames
 	 * @return
@@ -37,7 +36,7 @@ public class TemplateUtil {
 	}
 
 	/**
-	 * ƥ�� ffffx${a_B_c}ddd${bbb} ���� a_B_c bbb��list
+	 * 获得模板中的参数
 	 * 
 	 * @param lineStr
 	 * @return
